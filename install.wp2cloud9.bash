@@ -16,4 +16,4 @@ wp core download --locale=ja --path=/home/ubuntu/workspace
 mysql-ctl start
 
 ## WordPress Configure to Cloud9
-wp core config --dbname=c9 --dbuser=${$C9_USER} --dbpass= --dbhost=localhost --dbprefix=wordpress_
+wp core config --dbname=c9 --dbuser=${C9_USER} --dbpass= --dbhost=localhost --dbprefix=wordpress_
