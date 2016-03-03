@@ -12,6 +12,10 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 ## Download WordPress Core
 wp core download --locale=ja --path=/home/ubuntu/workspace
 
+## Set WP BASIC Auth Plugin (mu-pluguins)
+mkdir -p /home/ubuntu/workspace/wp-content/mu-plugins/
+wget -O /home/ubuntu/workspace/wp-content/mu-plugins/wp-basic-auth.php https://raw.githubusercontent.com/wokamoto/wp-basic-auth/master/plugin.php
+
 ## Start MySQL
 mysql-ctl start
 
