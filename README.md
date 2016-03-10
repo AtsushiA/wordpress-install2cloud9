@@ -10,8 +10,8 @@ ___       __   ________        ________  ________           ________  ___       
 Hi there! Welcome to WordPress on Cloud9 IDE!
 To get you started, we have created a WordPress site.
 
-1) Please run in a terminal of cloud9 copy the following text.
-curl https://raw.githubusercontent.com/AtsushiA/wordpress-install2cloud9/master/install.wp2cloud9.bash | bash
+1) Please run in a terminal of cloud9 copy the following text.  
+curl https://raw.githubusercontent.com/AtsushiA/wordpress-install2cloud9/for_wordbench/install.wp2cloud9.bash | bash
 
 2) Please complete the installation open the displayed url.
 
