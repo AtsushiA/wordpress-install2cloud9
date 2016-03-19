@@ -41,5 +41,5 @@ echo "
 " >> ${GOPATH}/README.md
 
 ## Start Apache
-sudo sudo /etc/init.d/apache2 start
+sudo /etc/init.d/apache2 start
 echo open https://${C9_HOSTNAME}
