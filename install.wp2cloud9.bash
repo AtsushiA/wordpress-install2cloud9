@@ -24,9 +24,10 @@ wp core config --dbname=c9 --dbuser=${C9_USER} --dbpass= --dbhost=localhost --db
 
 ## Set "Stop Apache" cron
 mkdir -p ${GOPATH}/.for_wordbench
-echo "* */5 * * * /etc/init.d/apache2 stop >/dev/null 2>&1" > ${GOPATH}/.for_wordbench/crontab
-sudo cron start
-sudo crontab -u root ${GOPATH}/.for_wordbench/crontab
+## Cloud9 crontab bug?
+#echo "* */5 * * * /etc/init.d/apache2 stop >/dev/null 2>&1" > ${GOPATH}/.for_wordbench/crontab
+#sudo cron start
+#sudo crontab -u root ${GOPATH}/.for_wordbench/crontab
 
 ## restart crond
 sudo service crond restart
