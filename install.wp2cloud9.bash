@@ -22,6 +22,9 @@ mysql-ctl start
 ## WordPress Configure to Cloud9
 wp core config --dbname=c9 --dbuser=${C9_USER} --dbpass= --dbhost=localhost --dbprefix=wordpress_
 
+## Activate wp-multibyte-patch Plugin
+wp plugin activate wp-multibyte-patch
+
 ## Set "Stop Apache" cron
 mkdir -p ${GOPATH}/.for_wordbench
 ## Cloud9 crontab bug?
